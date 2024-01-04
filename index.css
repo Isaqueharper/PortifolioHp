@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/fonts/fontawesome-webfont.ttf');
+    src: url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/fonts/fontawesome-webfont.eot') format('embedded-opentype'),
+      url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/fonts/fontawesome-webfont.woff') format('woff'),
+      url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/fonts/fontawesome-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  body {
+    background: url(http://ibisinfotech.com/img/portfolio-background.jpg);
+      background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+      background-color: #000000;
+      h1.logo {
+          border: solid white;
+          font-weight: bolder;
+          padding: 10px 18px;
+          width: 358px;
+          margin: auto;
+          margin-bottom: 30px;
+      }
+  }
+  
+  
+  
+  
+  .main-container {
+      margin-top: 100px;
+      text-align: center;
+      
+      .inverse {
+          background-color: white;
+          color: rgba(0, 0, 0, 0.5);
+          padding: 10px 20px;
+      }
+      
+      .portfolio-image {
+          border-radius: 100%;
+          width: 25%;
+      }
+      
+      hr.divider {
+          border-top: 2px solid #ffffff;
+          text-align: center;
+          width: 35%;
+          margin-top: 70px;
+          margin-bottom: 70px;
+      }
+      hr.divider:after {
+          content: "\f005";
+          display: inline-block;
+          position: relative;
+          padding: 0 10px;
+          color: #ffffff;
+          font-size: 20px;
+          font-family: FontAwesome;
+      }
+      
+      p.about {
+          font-size: 25px;
+      }
+      
+      .social-links {
+          margin-top: 40px;
+          .social {
+              width: 70px;
+              margin: 0px 10px;
+          }
+          .social-separator {
+              font-size: 5px;
+          }
+      }
+      
+      .skills-container {
+          ul {
+              list-style-type: none;
+              li {
+                  font-size: 18px;
+              }
+          }	
+      }
+      
+      .portfolio-container {
+          margin-top: 70px;
+          img {
+              height: 170px;
+          }
+      }
+      
+  }
+
+  nav ul {
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    text-align: center;
+    align-items: center;
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
